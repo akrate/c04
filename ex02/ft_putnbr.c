@@ -6,7 +6,7 @@
 /*   By: aoussama <aoussama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/08 20:10:19 by aoussama          #+#    #+#             */
-/*   Updated: 2024/09/10 13:12:56 by aoussama         ###   ########.fr       */
+/*   Updated: 2024/09/10 13:16:55 by aoussama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,5 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb % 10);
 	}
 	else
-		put_str(nb);
+		put_str(nb + '0');
 }
